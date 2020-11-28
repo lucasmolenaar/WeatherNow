@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>WeatherNow</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Find out the current weather in your city</h1>
+
+        <div class="input">
+            <input type="text" class="inputValue" placeholder="Enter a city">
+            <input type="submit" class="submitBtn" value="Check">
+        </div>
+
+        <div class="buttons">
+            <button class="celsiusBtn">Celsius</button>
+            <button class="fahrenheitBtn">Fahrenheit</button>
+        </div>
+
+
+
+        <div class="display">
+            <div class="city-temp">
+                <h1 class="city"></h1>
+                <h1 class="temp"></h1>
+            </div>
+
+            <div class="desc">
+                <h2 class="desc-text"></h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

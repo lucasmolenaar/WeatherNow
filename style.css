@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(25, 31, 31);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-family: "Coming Soon", sans-serif;
+    text-align: center;
+    padding: 50px 0;
+    color: goldenrod;
+}
+
+.inputValue {
+    padding: 10px;
+    background: transparent;
+    border: 1px solid goldenrod;    
+    color: goldenrod;
+}
+
+.submitBtn {
+    padding: 10px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid goldenrod;
+    color: goldenrod;
+}
+
+.buttons {
+    margin-top: 50px;
+}
+
+.fahrenheitBtn,
+.celsiusBtn {
+    padding: 10px;
+    background: transparent;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.fahrenheitBtn.active,
+.celsiusBtn.active {
+    background: goldenrod;
+    color: rgb(25, 31, 31);;
+}
+
+.display {
+    height: 200px;
+    width: 500px;
+    background: white;
+    border-radius: 100px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    color: goldenrod;
+    font-family: "Coming Soon", sans-serif;
+}
+
+.city-temp {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.city {
+    
+    font-family: "Coming Soon", sans-serif;
+    text-align: center;
+    padding: 0;
+}
+
+.temp {
+
+}
+
+.desc {
+
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
