@@ -14,8 +14,16 @@ submitBtn.addEventListener('click', () => {
     } else {
         celBtn.classList.remove('active')
     }
+})
 
+celBtn.addEventListener('click', () => {
+    celBtn.classList.add('active');
+    fahrBtn.classList.remove('active');
+})
 
+fahrBtn.addEventListener('click', () => {
+    celBtn.classList.remove('active');
+    fahrBtn.classList.add('active');
 })
 
 function fetchApi() {
